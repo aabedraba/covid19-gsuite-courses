@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-04-01T18:52:53Z",
+  "id": "manual-jamboard",
+  "duration": 0,
+  "title": "Manual básico de Jamboard",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Learn how to use Jamboard",
+  "source": "14T5ZJrf6zz79yxlK41sxs5SrSsdA5OQBQwwaMkLEfPM",
+  "theme": "gsuite",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "gsuite"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "manual-jamboard"
+}

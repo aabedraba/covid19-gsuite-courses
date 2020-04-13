@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-04-01T15:24:21Z",
+  "id": "curso-hangouts",
+  "duration": 0,
+  "title": "Tutorial para realizar clases y tutorías con videollamadas (Hangouts Meet)",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Learn how to use Google Meet",
+  "source": "1-zO-64Br0oQo2WFNeHR5_U0uY4zWr26_IJfW1QswwYA",
+  "theme": "meet",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "meet"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "curso-hangouts"
+}

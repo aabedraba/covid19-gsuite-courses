@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-03-13T01:03:31Z",
+  "id": "curso-excel",
+  "duration": 0,
+  "title": "Hojas de Datos: Curso básico",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Learn how to use Spreadsheets",
+  "source": "1x4Izd7YQujczcss2LnTWG3ZfwnT87KXKJ2_n74t_Hw8",
+  "theme": "sheets",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "sheets"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "meet",
+    "sheet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "curso-excel"
+}

@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-03-13T01:45:54Z",
+  "id": "gsuite-en-aula",
+  "duration": 6,
+  "title": "Gsuite en el aula: Docs (+Forms, Drive,Sheets), Calendar y Slides",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Learn how to use G Suite in your class",
+  "source": "1KWhdg2tFQFyiS9kotnjMb1m4WFJpf2vdvYc47UMJXeY",
+  "theme": "gsuite",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "gsuite"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "gsuite-en-aula"
+}

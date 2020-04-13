@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-03-13T01:46:15Z",
+  "id": "curso-tfm-tfg",
+  "duration": 6,
+  "title": "Optimiza tu TFG/TFM con Google. Taller.",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Learn how to use Google Docs",
+  "source": "1eUJVoBRnsTwEBtXW42AyBNr73Sjro9NyQSb5NJ-da9Y",
+  "theme": "docs",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "docs"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "curso-tfm-tfg"
+}

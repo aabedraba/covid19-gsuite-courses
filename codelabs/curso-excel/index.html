@@ -1,0 +1,532 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Hojas de Datos: Curso básico</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid="UA-52746336-1"
+                  id="curso-excel"
+                  title="Hojas de Datos: Curso básico"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Crear y usar tablas dinámicas" duration="0">
+        <p>Puedes usar tablas dinámicas para delimitar un gran conjunto de datos o ver las relaciones entre datos. Por ejemplo, puedes usar una tabla dinámica para determinar qué vendedor ha conseguido más ingresos en un mes determinado.</p>
+<h2 is-upgraded>Añadir o editar tablas dinámicas</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas con los datos de origen que quieras usar. Importante: Se debe introducir un encabezado en cada columna.</li>
+<li>En el menú de la parte de arriba, haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Tabla dinámica. Haz clic en la hoja de la tabla dinámica, si aún no está abierta.</li>
+<li>En el panel lateral, junto a &#34;Filas&#34; o &#34;Columnas&#34;, haz clic en Añadir y elige un valor.</li>
+</ol>
+<ul>
+<li>Nota: A veces, te aparecerán tablas dinámicas recomendadas en función de los datos que elijas. Para añadir una tabla dinámica, elígela en &#34;Sugerencias&#34;.</li>
+</ul>
+<ol type="1" start="5">
+<li>En el panel lateral, junto a &#34;Valores&#34;, haz clic en Añadir y elige el valor que quieras ver en tus filas o columnas.</li>
+<li><a href="https://support.google.com/docs/answer/7572895" target="_blank">Puedes cambiar la forma en la que se muestran, ordenan, resumen o filtran tus datos.</a> Haz clic en la flecha hacia abajo <img alt="Flecha hacia abajo" title="Flecha hacia abajo" style="width: 18.67px" src="img/573dcf01ba426b5a.png"> situada junto al elemento que quieras cambiar.</li>
+</ol>
+<p>Cambiar o quitar datos</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>En el panel lateral, cambia o quita campos:</li>
+</ol>
+<ul>
+<li>Para mover un campo, arrástralo a otra categoría.</li>
+<li>Para quitar un campo, haz clic en Quitar <img alt="Quitar" title="Quitar" style="width: 18.00px" src="img/8f8bb2355bf6f421.png">.</li>
+<li>Para cambiar el intervalo de datos usado en tu tabla dinámica, haz clic en Selecciona el intervalo de datos <img alt="Selecciona el intervalo de datos" title="Selecciona el intervalo de datos" style="width: 18.67px" src="img/b8c3d9ef48223915.png">.</li>
+</ul>
+<p>Nota: La tabla dinámica se actualizará cada vez que cambies las celdas de las que se extraen los datos de origen.</p>
+<p>Ver detalles de una celda</p>
+<p>Puedes ver los datos de origen de una celda concreta de una fila de una tabla dinámica.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>Haz doble clic en la celda cuyos datos quieras ver en más detalle.</li>
+<li>Te aparecerá una hoja nueva con los datos de origen de la celda.</li>
+</ol>
+<h2 is-upgraded>Calcular un valor con una fórmula personalizada</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>En el panel lateral, junto a &#34;Valores&#34;, haz clic en Añadir <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> y luego en Campo calculado.</li>
+<li>En el campo que aparece, introduce una fórmula. A continuación, junto a &#34;Resumir por&#34;, haz clic en Personalizado.</li>
+</ol>
+<ul>
+<li>Puedes introducir una fórmula en otras columnas. Por ejemplo, puedes escribir <code>=suma(Precio)/contara(Producto)</code>, donde &#34;<code>Precio</code>&#34; y &#34;<code>Producto</code>&#34; son campos de la tabla dinámica.</li>
+<li>Puedes introducir <a href="https://support.google.com/docs/table/25273" target="_blank">funciones de Hojas de cálculo de Google</a> en tu fórmula.</li>
+</ul>
+<ol type="1" start="5">
+<li>Te aparecerá una columna nueva llamada &#34;Campo calculado 1&#34;.</li>
+</ol>
+<p><a href="https://docs.google.com/spreadsheets/d/1M3ltmdUsyhCNbKLWLLNCrXTg6O5YGPdCh3AwrwHHkAk/copy" target="_blank"><strong>Ejemplo</strong></a></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Asignar un nombre a un intervalo de celdas" duration="0">
+        <p>Puedes asignar nombres a intervalos en Hojas de Cálculo de Google para controlarlos mejor y crear fórmulas más sencillas.</p>
+<p>Por ejemplo, en lugar de utilizar &#34;A1:B2&#34; para describir un intervalo de celdas, puedes asignar el nombre &#34;presupuesto_total&#34;. De este modo, una fórmula como &#34;=SUMA(A1:B2, D4:E6)&#34; se puede escribir como &#34;=SUMA(presupuesto_total, trimestre2).&#34;</p>
+<h4 is-upgraded>Poner nombre a un intervalo</h4>
+<ol type="1" start="1">
+<li>Abre una hoja de cálculo en Hojas de Cálculo de Google.</li>
+<li>Selecciona las celdas a las que quieras poner nombre.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Intervalos con nombre. Se abrirá un menú a la derecha.</li>
+<li>Escribe el nombre que quieras poner al intervalo.</li>
+<li>Para cambiar el intervalo, haz clic en Hoja de cálculo <img alt="Grid" title="Grid" style="width: 18.67px" src="img/acf5ab6f1d375b21.png">.</li>
+<li>Selecciona un intervalo de la hoja de cálculo, o introduce uno nuevo en el cuadro de texto, y haz clic en Ok.</li>
+<li>Haz clic en Listo.</li>
+</ol>
+<p>Los nombres de intervalos:</p>
+<ul>
+<li>solo pueden contener letras, números y guiones bajos,</li>
+<li>no pueden empezar por un número ni por las palabras &#34;true&#34; (verdadero) ni &#34;false&#34; (falso),</li>
+<li>no pueden incluir espacios ni signos de puntuación,</li>
+<li>deben tener una longitud de entre 1 y 250 caracteres,</li>
+<li>no pueden tener la sintaxis A1 o R1C1. Por ejemplo, puede producirse un error si nombras a un intervalo como &#34;A1:B2&#34; o &#34;R1C1:R2C2&#34;.</li>
+</ul>
+<h4 is-upgraded>Editar o eliminar un intervalo con nombre</h4>
+<ol type="1" start="1">
+<li>Abre una hoja de cálculo en Hojas de cálculo de Google.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Intervalos con nombre.</li>
+<li>Haz clic en Editar <img alt="Editar" title="Editar" style="width: 18.67px" src="img/239e2aff3b3fab8.png"> en el intervalo con nombre que quieras editar o eliminar.</li>
+<li>Para editar el intervalo, introduce un nombre o intervalo nuevos y haz clic en Ok.</li>
+<li>Para eliminarlo, haz clic en Eliminar <img alt="Papelera" title="Papelera" style="width: 18.67px" src="img/78dcf2642b9198e1.png"> junto al nombre.</li>
+<li>En el menú que aparece, haz clic en Eliminar.</li>
+</ol>
+<p>Nota: Al eliminar un intervalo con nombre, las fórmulas que hacen referencia a él dejan de funcionar. En cambio, los intervalos protegidos que hacen referencia a un intervalo con nombre utilizan los valores de las celdas y siguen funcionando.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Ordenar y filtrar tus datos" duration="0">
+        <p>Puedes ordenar y filtrar datos en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a> para organizarlos y analizarlos.</p>
+<p>Nota: Las <a href="https://support.google.com/docs/answer/3540681#filter_view" target="_blank">vistas de filtro</a> solo están disponibles en ordenadores. Consultar el artículo <a href="https://support.google.com/docs/answer/3093197" target="_blank">FILTER</a> para ver más información sobre la función.</p>
+<h2 is-upgraded>Ordenar un intervalo de datos</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Resalta el grupo de celdas que quieras ordenar.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Ordenar intervalo.</li>
+<li>Si las columnas tienen títulos, haz clic en Los datos incluyen una fila de encabezado.</li>
+<li>Selecciona la columna que quieras ordenar primero y elige entre un orden ascendente o uno descendente. Los números también se ordenarán.</li>
+</ol>
+<ul>
+<li>Haz clic en +Añadir otra columna para ordenar para añadir otra regla de ordenación. La ordenación se aplica según el orden que sigan tus reglas.</li>
+<li>Para eliminar una regla, haz clic en Cerrar <img alt="Cerrar" title="Cerrar" style="width: 18.67px" src="img/8f8bb2355bf6f421.png">.</li>
+</ul>
+<ol type="1" start="6">
+<li>Haz clic en Ordenar. El intervalo se ordenará.</li>
+</ol>
+<h2 is-upgraded>Ordenar una hoja entera</h2>
+<p>Nota: Si tu hoja incluye una fila de encabezado, <a href="https://support.google.com/docs/answer/9060449" target="_blank">inmoviliza la primera fila</a>.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>En la parte superior, haz clic en la letra de la columna por la que quieras ordenar. </li>
+<li>Haz clic con el botón derecho en la columna.</li>
+<li>Haz clic en Ordenar hoja A → Z u Ordenar hoja Z → A.</li>
+</ol>
+<h2 is-upgraded>Filtrar tus datos</h2>
+<p>Puedes usar filtros para ver y analizar los datos de una hoja de cálculo. Los filtros te permiten ocultar los datos que no quieras ver. Para volver a mostrarlos, solo tienes que desactivar los filtros.</p>
+<h3 is-upgraded>Diferencias entre filtros y vistas de filtro</h3>
+<p>Tanto los filtros como las vistas de filtro te ayudan a analizar un conjunto de datos de una hoja de cálculo.</p>
+<p>Los filtros te resultan útiles si:</p>
+<ul>
+<li>Quieres que todos los que usen tu hoja de cálculo vean un filtro específico cuando la abran.</li>
+<li>Quieres que tus datos sigan ordenados después de usar el filtro.</li>
+</ul>
+<p>Las vistas de filtro te resultan útiles si:</p>
+<ul>
+<li>Quieres guardar varias vistas.</li>
+<li>Quieres ponerle un nombre a tu vista.</li>
+<li>Quieres que los demás vean los datos de otra manera. Como los que ven tu hoja de cálculo tienen que activar las vistas de filtro, cada uno puede ver una vista distinta a la vez.</li>
+<li>Quieres compartir filtros distintos con otras personas. Puedes enviar enlaces a vistas de filtro distintas a cada persona de modo que cada una vea la información más relevante para ella.</li>
+<li>Quieres hacer una copia o crear otra vista con reglas parecidas.</li>
+<li>No tienes acceso de edición a una hoja de cálculo pero quieres filtrar u ordenar sus datos. En ese caso, se crearía un filtro temporal.</li>
+</ul>
+<p>Nota: Los filtros se pueden exportar e importar, pero las vistas de filtros, no.</p>
+<h3 is-upgraded>Usar filtros en una hoja de cálculo</h3>
+<p>Si quieres ocultar temporalmente ciertos datos de una hoja de cálculo, añade un filtro.</p>
+<p>Nota: Si añades un filtro, cualquiera que tenga acceso a tu hoja de cálculo podrá verlo. Cualquier persona que tenga el permiso para editarla podrá cambiar el filtro.</p>
+<p>Filtrar tus datos</p>
+<p>Para filtrar tus datos:</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona un intervalo de celdas.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Crear un filtro.</li>
+<li>Para ver las opciones de filtro, ve a la parte superior del intervalo y haz clic en Filtro <img alt="Filtrar" title="Filtrar" style="width: 18.00px" src="img/ffdd360bea9bb9d6.png">.</li>
+</ol>
+<ul>
+<li>Filtrar por condición: elige una condición de la lista o escribe la tuya. Por ejemplo: si la celda está vacía, si los datos son inferiores a un número concreto o si el texto contiene una letra o una frase determinadas.</li>
+<li>Filtrar por valores: desmarca los datos que quieras ocultar y haz clic en Aceptar. Si quieres seleccionar todos los datos, haz clic en Seleccionar todo. Si quieres desmarcar todos los puntos de datos, haz clic en Borrar.</li>
+<li>Buscar: escribe en este cuadro para buscar puntos de datos. Por ejemplo, si escribes &#34;P&#34;, solo se mostrarán los nombres de tu lista que empiecen por esa letra.</li>
+</ul>
+<ol type="1" start="5">
+<li>Para desactivar el filtro, haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Desactivar filtro.</li>
+</ol>
+<p>Ordenar tus datos filtrados</p>
+<ul>
+<li>Puedes ordenar los datos que tienen un filtro aplicado.</li>
+<li>Al hacerlo, solamente se ordenan los datos incluidos en el intervalo filtrado.</li>
+<li>Las celdas del intervalo filtrado tienen un borde verde a su alrededor.</li>
+</ul>
+<h3 is-upgraded>Crear una vista de filtro, ponerle un nombre y guardarla</h3>
+<p>Usa una vista de filtro cuando:</p>
+<ul>
+<li>Quieras guardar tu filtro y utilizarlo en otro momento.</li>
+<li>No quieras interferir en cómo ven otros los datos.</li>
+<li>Quieras compartir con otras personas un enlace a un filtro determinado.</li>
+<li>No puedas editar una hoja de cálculo, pero quieras filtrar u ordenar sus datos.</li>
+</ul>
+<p>Crear, guardar o eliminar una vista de filtro</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Vistas de filtro <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Crear una nueva vista de filtro.</li>
+<li>Ordena y filtra los datos.</li>
+<li>Para cerrar la vista de filtro, haz clic en Cerrar <img alt="Cerrar" title="Cerrar" style="width: 18.67px" src="img/8f8bb2355bf6f421.png">.</li>
+<li>La vista de filtro se guarda automáticamente.</li>
+</ol>
+<p>Para eliminar o duplicar una vista de filtro, ve a la parte superior derecha y haz clic en Configuración  <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Eliminar o Duplicar.</p>
+<p>Cambiar el nombre de una vista de filtro</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Vistas de filtro.</li>
+<li>Selecciona una vista de filtro.</li>
+<li>Ve a la barra negra, haz clic en el nombre de la vista de filtro (arriba a la izquierda) y escribe el nuevo nombre.</li>
+<li>Pulsa Intro.</li>
+</ol>
+<p>Ver una vista de filtro</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Vistas de filtro.</li>
+<li>Selecciona una vista de filtro.</li>
+<li>El filtro se aplicará a la hoja de cálculo.</li>
+<li>Para cerrar la vista de filtro, haz clic en Cerrar <img alt="Cerrar" title="Cerrar" style="width: 18.67px" src="img/8f8bb2355bf6f421.png">.</li>
+</ol>
+<p>Guardar un filtro como vista de filtro</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Aplica un filtro.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Vistas de filtro <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Guardar como vista de filtro.</li>
+</ol>
+<p>Usar una vista de filtro con acceso de solo lectura</p>
+<p>Si tienes permiso para ver una hoja de cálculo, pero no para editarla, también puedes utilizar las vistas de filtro:</p>
+<ul>
+<li>Para aplicar las vistas de filtro, haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Vistas de filtro.</li>
+<li>Puedes crear una vista de filtro temporal que solo tú puedas usar. Como no tienes permiso para editar la hoja de cálculo, la vista de filtro no se guardará.</li>
+<li>Solo los usuarios que tengan permiso para editar una hoja de cálculo pueden crear vistas de filtro que después estén disponibles para todos los que vean la hoja.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Crear una lista desplegable en una celda" duration="0">
+        <ol type="1" start="1">
+<li>Abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona la celda o las celdas en las que quieras crear la lista desplegable.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Validación de datos.</li>
+<li>Junto a &#34;Criterios&#34;, elige una opción:</li>
+</ol>
+<ul>
+<li>Lista a partir de un intervalo: elige las celdas que quieras incluir en la lista.</li>
+<li>Lista de elementos: introduce los elementos, separados por comas y sin espacios.</li>
+</ul>
+<ol type="1" start="5">
+<li>Las celdas tendrán una flecha hacia abajo <img alt="Flecha hacia abajo" title="Flecha hacia abajo" style="width: 18.67px" src="img/573dcf01ba426b5a.png">. Para quitarla, desmarca &#34;Mostrar botón en la celda para desplegar la lista&#34;.</li>
+<li>Si introduces en una celda datos que no coinciden con ningún elemento de la lista, aparecerá un aviso. Si quieres que los usuarios solo puedan introducir elementos de la lista, selecciona &#34;Rechazar entrada&#34; junto a &#34;Si los datos no son válidos&#34;.</li>
+<li>Haz clic en Guardar. Aparecerá una lista desplegable en las celdas. Para cambiar el color de una celda en función de la opción seleccionada, usa el <a href="https://support.google.com/docs/answer/78413?hl%3Den%26co%3DGENIE.Platform%3DDesktop" target="_blank">formato condicional</a>. </li>
+</ol>
+<h3 is-upgraded>Cambiar o eliminar una lista desplegable</h3>
+<ol type="1" start="1">
+<li>Abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas que quieras cambiar.</li>
+<li>Haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Validación de datos.</li>
+<li>Para cambiar las opciones que aparecen, modifica los elementos junto a &#34;Criterios&#34;.</li>
+<li>Para eliminar una lista, haz clic en Eliminar validación.</li>
+<li>Haz clic en Guardar. Si cambias el contenido del intervalo que has seleccionado, los cambios se aplicarán a la lista automáticamente.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Crear listas o series automáticamente" duration="0">
+        <p>Puedes usar la función Autocompletar para crear una serie de números, letras o fechas en Hojas de Cálculo de Google.</p>
+<h2 is-upgraded>Usar Autocompletar para completar una serie</h2>
+<ol type="1" start="1">
+<li>Abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets" target="_blank">Hojas de Cálculo de Google</a>.</li>
+<li>Introduce texto, números o fechas en al menos dos celdas contiguas de una fila o una columna.</li>
+<li>Resalta las celdas. Aparecerá un cuadro azul pequeño en la esquina inferior derecha.</li>
+<li>Arrastra el cuadro azul por las celdas que quieras, hacia abajo o hacia un lado.</li>
+</ol>
+<ul>
+<li>Si las celdas incluyen una serie de fechas o números, la serie continuará en las celdas seleccionadas.</li>
+<li>Si las celdas no incluyen ninguna serie de fechas o números, la lista de valores se repetirá en las celdas seleccionadas.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Usar reglas de formato condicional en Hojas de Cálculo de Google" duration="0">
+        <p>Puedes aplicar formato a las celdas, a las filas o a las columnas para cambiar el color del texto o del fondo si cumplen ciertas condiciones, por ejemplo, si contienen una palabra o un número determinados.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas a las que quieras aplicar reglas de formato.</li>
+<li>Haz clic en Formato <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Formato condicional. Se abrirá una barra de herramientas en la parte derecha.</li>
+<li>Crea una regla.</li>
+</ol>
+<ul>
+<li>Un color: en &#34;Dar formato a celdas si&#34;, elige la condición que quieres que active la regla. En &#34;Estilo de formato&#34;, elige la apariencia que tendrá la celda cuando se cumplan las condiciones.</li>
+<li>Escala de colores: en &#34;Vista previa&#34;, selecciona la escala de colores. A continuación elige un valor mínimo, uno máximo y, si quieres, un valor de punto medio. Para elegir la categoría de los valores, haz clic en la flecha hacia abajo <img alt="Flecha hacia abajo" title="Flecha hacia abajo" style="width: 18.67px" src="img/573dcf01ba426b5a.png">.</li>
+</ul>
+<ol type="1" start="5">
+<li>Haz clic en Ok.</li>
+</ol>
+<p>Ejemplo</p>
+<p>Un profesor quiere resaltar las puntuaciones de un examen para ver qué alumnos sacaron menos de un 8.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las puntuaciones.</li>
+<li>Haz clic en Formato <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Formato condicional.</li>
+<li>En &#34;Dar formato a celdas si&#34;, haz clic en Menor que. Si ya hay una regla, haz clic en ella o selecciona Añadir nueva regla <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Menor que.</li>
+<li>Haz clic en Valor o fórmula y escribe 0,8.</li>
+<li>Para elegir un color rojo, haz clic en Color de relleno <img alt="Color" title="Color" style="width: 18.00px" src="img/747e1c4f0b15ba9f.png">.</li>
+<li>Haz clic en Ok. Las puntuaciones que están por debajo del valor introducido se resaltan en rojo.</li>
+</ol>
+<h2 is-upgraded>Usar el formato condicional avanzado</h2>
+<p>Usar fórmulas personalizadas con el formato condicional</p>
+<p>Puedes usar fórmulas personalizadas para aplicar formato a una o más celdas en función del contenido de otras celdas.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas a las que quieras dar formato.</li>
+<li>Haz clic en Formato <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Formato condicional.</li>
+<li>En el menú desplegable &#34;Dar formato a celdas si&#34;, haz clic en La fórmula personalizada es. Si ya hay una regla, haz clic en ella o selecciona Añadir nueva regla <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> La fórmula personalizada es.</li>
+<li>Haz clic en Valor o fórmula y añade la fórmula y las reglas.</li>
+<li>Haz clic en Ok.</li>
+</ol>
+<p>Nota: Las fórmulas solo pueden hacer referencia a la misma hoja mediante la notación estándar &#34;(=&#39;nombrehoja&#39;!celda)&#34;. Para hacer referencia a otra hoja en la fórmula, usa la función <a href="https://support.google.com/docs/answer/3093377" target="_blank">INDIRECTO</a>.</p>
+<h3 is-upgraded>Ejemplo 1</h3>
+<p>Si quieres resaltar las celdas cuando un valor de tus datos aparezca más de una vez:</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona el intervalo al que quieras dar formato. Por ejemplo, de la celda A1 a la A100.</li>
+<li>Haz clic en Formato <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Formato condicional.</li>
+<li>En el menú desplegable &#34;Dar formato a celdas si&#34;, haz clic en La fórmula personalizada es. Si ya hay una regla, haz clic en ella o selecciona Añadir nueva regla <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> La fórmula personalizada es.</li>
+<li>Escribe la regla de la primera fila. En este caso, sería &#34;=CONTAR.SI($A$1:$A$100;A1)&gt;1&#34;.</li>
+<li>Elige otras propiedades de formato.</li>
+<li>Haz clic en Ok.</li>
+</ol>
+<h3 is-upgraded>Ejemplo 2</h3>
+<p>Si quieres dar formato a una fila completa en función del valor de una de las celdas de esa fila:</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona el intervalo al que quieras dar formato, por ejemplo, de la columna A a la E.</li>
+<li>Haz clic en Formato <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Formato condicional.</li>
+<li>En el menú desplegable &#34;Dar formato a celdas si&#34;, haz clic en La fórmula personalizada es. Si ya hay una regla, haz clic en ella o selecciona Añadir nueva regla <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> La fórmula personalizada es.</li>
+<li>Escribe la regla de la primera fila. Por ejemplo, si quieres que se aplique el color verde a toda la fila cuando el valor de la columna B sea &#34;Sí&#34;, escribe una fórmula como =$B1=&#34;Sí&#34;.</li>
+<li>Elige otras propiedades de formato.</li>
+<li>Haz clic en Ok.</li>
+</ol>
+<h3 is-upgraded>Diferencia entre referencias absolutas y relativas</h3>
+<p>Para que el formato se aplique mediante referencias absolutas en lugar de relativas (A1 a B1, A2 a B2), a menudo tendrás que añadir símbolos de dólar ($) delante de las letras y los números de las fórmulas.</p>
+<p>Usar caracteres comodín con el formato condicional</p>
+<p>Puedes usar caracteres comodín para buscar varias expresiones. Los caracteres comodín se pueden utilizar en los campos &#34;El texto contiene&#34; o &#34;El texto no contiene&#34; al aplicar el formato.</p>
+<ul>
+<li>Usa un signo de interrogación (?) para representar cualquier carácter. Por ejemplo, una regla de texto que contenga &#34;a?c&#34; daría formato a las celdas que incluyan &#34;abc&#34;, pero no a las que contengan &#34;ac&#34; o &#34;abbc&#34;.</li>
+<li>Usa un asterisco (*) como comodín para cero (0) o más caracteres. Por ejemplo, una regla de texto que contenga &#34;a*c&#34; daría formato a las celdas con &#34;abc&#34;, &#34;ac&#34; y &#34;abbc&#34;, pero no a las que contengan &#34;ab&#34; ni &#34;ca&#34;.</li>
+<li>Si quieres especificar un signo de interrogación o un asterisco en el texto, añade una tilde (~) delante de los caracteres comodín para que no se interpreten como tales. Por ejemplo, una regla de texto que contenga &#34;a~?c&#34; daría formato a las celdas que incluyan &#34;a?c&#34;, pero no a las que contengan &#34;abc&#34; o &#34;a~?c&#34;.</li>
+</ul>
+<p>Notas:</p>
+<ul>
+<li>Para quitar una regla, sitúa el cursor encima de ella y haz clic en Eliminar <img alt="Quitar" title="Quitar" style="width: 18.67px" src="img/78dcf2642b9198e1.png">.</li>
+<li>Las reglas se evalúan en el orden indicado. La primera regla que se cumpla definirá el formato de la celda o del intervalo. Para reordenarlas, haz clic en ellas y arrástralas.</li>
+<li>Si copias y pegas contenido de una celda o de un intervalo que tengan reglas de formato, las reglas se aplicarán al pegar los datos copiados.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Usar matrices en Hojas de cálculo de Google" duration="0">
+        <p>Una matriz es una tabla que consta de filas y columnas de valores. Si quieres agrupar los valores de las celdas en un orden determinado, puedes usar matrices en una hoja de cálculo.</p>
+<p>Algunas funciones devuelven matrices. Por ejemplo, <code>IMPORTRANGE</code> devuelve una matriz de valores al importar el intervalo especificado de otra hoja de cálculo. Si usas <code>IMPORTRANGE</code> en una fórmula, observarás que el resultado de la matriz se desborda por las celdas situadas a la derecha y debajo.</p>
+<p>Las funciones que toman un intervalo (p. ej., A1:B6) como parámetro de entrada también aceptan una matriz. Por ejemplo, <code>SPARKLINE</code> toma un intervalo como primer parámetro para especificar los valores que se van a trazar. Así pues, puedes usar el resultado de la matriz de <code>IMPORTRANGE</code> como entrada de <code>SPARKLINE</code>.</p>
+<p><code>=SPARKLINE(IMPORTRANGE(...))</code></p>
+<h4 is-upgraded>Crear matrices</h4>
+<p>También puedes crear tus propias matrices en una fórmula en la hoja de cálculo mediante el uso de corchetes { }. Los corchetes te permiten agrupar valores, y puedes usar los siguientes signos de puntuación para determinar el orden en que se muestran los valores:</p>
+<ul>
+<li>Comas: permiten separar columnas para poder escribir una fila de datos en una matriz. Por ejemplo, en la matriz <code>={1, 2}</code> se coloca el número 1 en la primera celda y el número 2 en la celda de la derecha en una columna nueva.</li>
+<li>Punto y coma: permite separar filas para poder escribir una columna de datos en una matriz. Por ejemplo, en la matriz <code>={1; 2}</code> se coloca el número 1 en la primera celda y el número 2 en la celda de debajo en una fila nueva.</li>
+</ul>
+<p>Nota: En los países en los que se usan comas como separadores decimales (por ejemplo, 1,00 €), las comas se sustituyen por barras diagonales inversas (\) al crear matrices.</p>
+<p>Puedes unir varios intervalos en una columna continua mediante estos signos de puntuación, y se obtiene el mismo resultado que con <code>VMERGE</code>. Por ejemplo, para combinar los valores de A1 a A10 con los valores de D1 a D10, puedes usar la siguiente fórmula para crear un intervalo en una columna continua: <code>={A1:A10; D1:D10}</code></p>
+<h4 is-upgraded>Añadir matrices a fórmulas existentes</h4>
+<p>También puedes usar corchetes en matrices con otras fórmulas existentes para organizar los resultados devueltos por las fórmulas en filas o columnas.</p>
+<p>Por ejemplo, la fórmula <code>={SUM(A1:A10), SUM(B1:B10)}</code> devolverá dos valores. En la primera celda se incluirá la suma de A1 a A10, mientras que en la celda de la derecha se incluirá la suma de B1 a B10.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Dividir texto en columnas, quitar duplicados o recortar espacios en blanco" duration="0">
+        <h2 is-upgraded>Dividir datos en columnas</h2>
+<p>Con Hojas de cálculo de Google, puedes dividir datos claramente definidos en varias columnas, como el texto separado por comas. Por ejemplo, una columna con el texto &#34;Apellido, Nombre&#34; se puede dividir en dos: &#34;Apellido&#34; y &#34;Nombre&#34;.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/?tgif%3Dd" target="_blank">Hojas de cálculo de Google</a>.</li>
+</ol>
+<ul>
+<li>Si los datos ya están en la hoja, selecciona las celdas que quieras dividir.</li>
+<li>Si los datos no están aún en la hoja, pégalos.</li>
+</ul>
+<ol type="1" start="2">
+<li>Arriba, haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Dividir texto en columnas.</li>
+<li>Para cambiar el carácter que usa Hojas de cálculo para dividir los datos, haz clic en el menú desplegable situado junto a &#34;Separador&#34;.</li>
+<li>Para corregir el reparto de las columnas después de dividir el texto, haz clic en el menú junto a &#34;Separador&#34; <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Detectar automáticamente.</li>
+</ol>
+<p>Nota: Después de pegar los datos, puedes hacer clic en Pegar <img alt="Pegar" title="Pegar" style="width: 18.67px" src="img/70052a1e00982e86.png"> <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Dividir texto en columnas.</p>
+<h2 is-upgraded>Eliminar filas con datos repetidos</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/?tgif%3Dd" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona el intervalo de datos en el que quieras quitar los duplicados.</li>
+</ol>
+<ul>
+<li>Las celdas con valores idénticos pero con mayúsculas, formatos o fórmulas diferentes se consideran duplicados.</li>
+</ul>
+<ol type="1" start="3">
+<li>Arriba, haz clic en Datos <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Quitar duplicados.</li>
+<li>Elige qué columnas quieres incluir y si los datos tienen encabezados o no.</li>
+<li>Haz clic en Quitar duplicados.</li>
+</ol>
+<p>Nota: Si seleccionas una sola celda dentro de un intervalo, se quitarán los duplicados de todo el intervalo.</p>
+<h2 is-upgraded>Eliminar espacios adicionales</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/?tgif%3Dd" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona el intervalo de datos en el que quieras quitar los espacios iniciales, finales o adicionales.</li>
+<li>Arriba, haz clic en Datos <img alt="y luego" title="y luego" style="width: 18.67px" src="img/6f2e5287699790fd.png"> Recortar espacios en blanco.</li>
+</ol>
+<p>Nota: No se recortarán los espacios de no separación, como &amp;nbsp.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Personalizar una tabla dinámica" duration="0">
+        <p>Puedes cambiar la forma en la que se muestran, ordenan, resumen o filtran los datos de una tabla dinámica.</p>
+<h2 is-upgraded>Ordenar filas o columnas y cambiar el sentido de ordenación</h2>
+<p>Puedes cambiar el sentido de ordenación de los datos de una tabla dinámica y ordenarlos por nombre de fila o columna o por valores agregados.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>En &#34;Filas&#34; o &#34;Columnas&#34;, haz clic en la flecha que aparece en &#34;Orden&#34; u &#34;Ordenar por&#34;.</li>
+</ol>
+<p>Nota: Para mostrar los totales de una fila o columna, marca la casilla Mostrar totales.</p>
+<h2 is-upgraded>Cambiar la apariencia de una tabla dinámica</h2>
+<p>Cambiar el nombre de encabezado</p>
+<p>Para cambiar el encabezado de una columna:</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>Haz clic en el nombre de una fila o columna y sustitúyelo por otro.</li>
+</ol>
+<p>Nota: No se puede cambiar el nombre de &#34;Suma total&#34;.</p>
+<p>Mostrar un valor como un porcentaje</p>
+<p>Puedes mostrar un valor (p. ej., ventas de octubre) como un porcentaje del total (p. ej., ventas anuales).</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>En &#34;Valores&#34;, en &#34;Mostrar como&#34;, haz clic en Predeterminado.</li>
+<li>Elige una opción del menú.</li>
+</ol>
+<p>Agrupar datos</p>
+<p>Puedes seleccionar un conjunto de valores de una tabla dinámica y agruparlos manualmente o mediante una regla.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Haz clic en una tabla dinámica.</li>
+</ol>
+<p>Para agrupar datos manualmente:</p>
+<ol type="1" start="1">
+<li>Haz clic con el botón derecho en las celdas y selecciona Crear grupo dinámico.</li>
+<li>Selecciona las celdas que quieras agrupar.</li>
+</ol>
+<p>Para agrupar filas mediante una regla: </p>
+<ol type="1" start="1">
+<li>Haz clic con el botón derecho en una celda y selecciona Crear regla de grupo dinámico.</li>
+<li>Si los datos son números, elige un tamaño de intervalo. Opcional: Elige dónde empiezan y terminan tus grupos.</li>
+<li>Cuando acabes, haz clic en Aceptar.</li>
+</ol>
+<p>Para agrupar filas por fecha o un periodo de tiempo: </p>
+<ol type="1" start="1">
+<li>Haz clic con el botón derecho en una celda y selecciona Crear grupo de fechas de tabla dinámica.</li>
+<li>Elige la fecha o el periodo de tiempo por los que quieras agrupar las filas.</li>
+</ol>
+<p>Opcional: Para desagrupar un elemento agrupado, haz clic con el botón derecho en él y elige Dejar de agrupar elementos dinámicos.</p>
+<h2 is-upgraded>Filtrar datos de una tabla dinámica</h2>
+<p>Puedes ocultar los datos que no quieras mostrar en tu tabla.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo que contenga una tabla dinámica.</li>
+<li>Haz clic en una tabla dinámica.</li>
+<li>A la derecha, junto a &#34;Filtros&#34;, haz clic en Añadir. A continuación, elige una opción.</li>
+<li>Junto a &#34;Mostrando todos los elementos&#34;, haz clic en la flecha hacia abajo <img alt="Flecha hacia abajo" title="Flecha hacia abajo" style="width: 18.67px" src="img/573dcf01ba426b5a.png">.</li>
+<li>Elige cómo quieres filtrar:</li>
+</ol>
+<ul>
+<li>Filtrar por condición: escribe tu condición o elige una de la lista de condiciones; por ejemplo, si la celda no está vacía, si los datos son inferiores a un número concreto o si el texto contiene una letra o frase determinadas.</li>
+<li>Filtrar por valores: desmarca los elementos que quieras ocultar y haz clic en Aceptar.</li>
+</ul>
+<h3 is-upgraded>Notas</h3>
+<ul>
+<li>Si filtras por valor y, a continuación, cambias los datos de origen, deberás actualizar el filtro de la tabla dinámica para que los datos aparezcan en ella.</li>
+<li>Al filtrar por condición, puedes introducir un valor, una referencia a una celda o un campo de los datos. Por ejemplo, si seleccionas &#34;mayor que&#34;, puedes introducir 10, =Hoja1!A1 o =Ingresos, siempre que tus datos incluyan un campo llamado Ingresos.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Añadir y utilizar casillas" duration="0">
+        <p>Puedes añadir casillas a las celdas de una hoja de cálculo y usarlas para hacer un seguimiento de un proyecto, registrar la asistencia o marcar las tareas completadas de una lista, entre otras cosas.</p>
+<h2 is-upgraded>Insertar casillas</h2>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas en las que quieras insertar casillas.</li>
+<li>En el menú de arriba, haz clic en Insertar <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Casilla de verificación.</li>
+<li>Para quitar casillas, selecciona las que quieras borrar y pulsa Eliminar.</li>
+</ol>
+<p>Nota: Puedes usar casillas con gráficos, filtros, tablas dinámicas y funciones.</p>
+<h2 is-upgraded>Añadir valores de casillas personalizados</h2>
+<p>Puedes añadir casillas con valores personalizados. Por ejemplo, el valor personalizado de una casilla marcada podría ser &#34;Sí&#34; y el de una casilla sin marcar, &#34;No&#34;.</p>
+<ol type="1" start="1">
+<li>En un ordenador, abre una hoja de cálculo en <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">Hojas de cálculo de Google</a>.</li>
+<li>Selecciona las celdas en las que quieras insertar casillas.</li>
+<li>En el menú de arriba, haz clic en Datos <img alt="y luego" title="y luego" style="width: 13.33px" src="img/dac11dfaaa5e4fa5.png"> Validación de datos.</li>
+<li>Junto a &#34;Criterios&#34;, elige Casilla de verificación.</li>
+<li>Haz clic en Usar valores de celdas personalizadas.</li>
+<li>Introduce un valor junto a &#34;Marcada&#34;.</li>
+<li>Opcional: A continuación, introduce un valor junto a &#34;Sin marcar&#34;.</li>
+<li>Haz clic en Guardar.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>
