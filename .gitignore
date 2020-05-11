@@ -1,6 +1,7 @@
 .tmp
 .content
 .config
+.firebase/
 gulp-cache
 node_modules/
 app/bower_components/*/.*
@@ -18,5 +19,3 @@ app/js/bundle
 
 /build/
 /dist/
-
-/app/views/default/index.html
