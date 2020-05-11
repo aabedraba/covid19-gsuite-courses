@@ -1,5 +1,6 @@
 .tmp
 .content
+.config
 gulp-cache
 node_modules/
 app/bower_components/*/.*
