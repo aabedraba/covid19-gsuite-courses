@@ -188,8 +188,8 @@ $color-google-blue, 'wear-os.svg');
 @include codelab-card(['search'],
   $color-google-blue, 'google-g.svg');
 
-@include codelab-card(['slurm', 'hpc', 'cloud-hpc'],
-  $color-slurm-blue, 'slurm.svg');
+@include codelab-card(['forms'],
+  $color-ar-core-purple, 'google-forms.svg');
 
 @include codelab-card(['tensorflow', 'tensor-flow'],
   $color-tensorflow-orange, 'tensorflow.svg');

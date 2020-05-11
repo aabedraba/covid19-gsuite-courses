@@ -3,19 +3,19 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-04-16T17:10:49Z",
-  "id": "manual-jamboard",
+  "updated": "2020-05-11T20:13:07Z",
+  "id": "google-forms",
   "duration": 0,
-  "title": "Manual básico de Jamboard",
+  "title": "Curso Intensivo Google Forms",
   "authors": "Paco Roca y Abdallah Abedraba",
   "summary": "Learn how to use Jamboard",
-  "source": "14T5ZJrf6zz79yxlK41sxs5SrSsdA5OQBQwwaMkLEfPM",
-  "theme": "gsuite",
+  "source": "1Kmo2-kbpEGaQgPURbtOC5gXmU8gHSian2ACKumYUEj8",
+  "theme": "forms",
   "status": [
     "published"
   ],
   "category": [
-    "gsuite"
+    "forms"
   ],
   "tags": [
     "codelabs",
@@ -27,5 +27,5 @@
     "meet"
   ],
   "ga": "UA-52746336-1",
-  "url": "manual-jamboard"
+  "url": "google-forms"
 }
