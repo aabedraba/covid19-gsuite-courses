@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readarray -t cursos < ./course-links
+cursos=($(awk -F= '{print $1}' course-links))
 for i in "${cursos[@]}"
 do
 	claat export "$i"
