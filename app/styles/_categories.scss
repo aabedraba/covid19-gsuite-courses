@@ -169,6 +169,9 @@ $color-google-blue, 'wear-os.svg');
 @include codelab-card(['gmail'],
   $color-google-red, 'gmail.svg');
 
+  @include codelab-card(['jamboard'],
+  $color-firebase-orange, 'jamboard.svg');
+
 @include codelab-card(['firebase', 'firebase-web'],
   $color-firebase-orange, 'firebase.svg');
 
