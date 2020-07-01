@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-06-25T05:50:11Z",
+  "id": "sheets-basico",
+  "duration": 0,
+  "title": "Hojas de Cálculo (Nivel básico)",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Hojas de Calculo",
+  "source": "1fl2p7AEDBJSWleIbPGLsXN6GblAchJQyvZlwnZV-dWY",
+  "theme": "sheets",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "sheets"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "sheets-basico"
+}

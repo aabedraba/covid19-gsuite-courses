@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-06-30T23:53:19Z",
+  "id": "docs-basico",
+  "duration": 4,
+  "title": "Herramientas de Google para la docencia universitaria. Google Docs, Calendar y Slides. (Nivel básico)",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "G Docs, calendar slides (básico)",
+  "source": "1N3h4BmxdIMfHlm0pbkgtmZtOYal_Vq7L-J7eFGZwqvA",
+  "theme": "docs",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "docs"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "docs-basico"
+}

@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-06-30T23:50:32Z",
+  "id": "drive-basico",
+  "duration": 0,
+  "title": "Google Drive (Nivel 0).",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Drive",
+  "source": "1yIEYS3PpYESttHDsvVkgOX7glGOfkzg-fCG_qBQDNns",
+  "theme": "gsuite",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "gsuite"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "drive-basico"
+}

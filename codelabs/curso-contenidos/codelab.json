@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-06-28T07:17:56Z",
+  "id": "curso-contenidos",
+  "duration": 0,
+  "title": "Contenidos para la docencia presencial y online. La nueva normalidad",
+  "authors": "Paco Roca y Abdallah Abedraba",
+  "summary": "Contents for teching",
+  "source": "1OTAwcVPVtzzpPchw7qw7GFiLoOczhRjYL8fSlSPZrjc",
+  "theme": "docs",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "docs"
+  ],
+  "tags": [
+    "codelabs",
+    "coronavirus",
+    "covid19",
+    "cursos",
+    "g suite",
+    "hangouts",
+    "meet"
+  ],
+  "ga": "UA-52746336-1",
+  "url": "curso-contenidos"
+}
